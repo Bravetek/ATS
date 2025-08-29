@@ -1,0 +1,3 @@
+{"type": "kpi", "name": "efficiency", "vin": 3.3, "i_ch1": 0.1, "i23": 0.0, "value": 0.30306036748461385}
+{"type": "kpi", "name": "efficiency", "vin": 3.3, "i_ch1": 0.1, "i23": 0.05, "value": 9133.88901606699}
+{"type": "done", "state": "failed", "error": "[Errno 13] Permission denied: 'runs\\\\20250821_232302\\\\progress.json'"}

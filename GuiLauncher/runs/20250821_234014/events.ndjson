@@ -1,0 +1,9 @@
+{"type": "kpi", "name": "efficiency", "vin": 3.3, "i_ch1": 0.1, "i23": 0.0, "value": 412683837.8751228}
+{"type": "kpi", "name": "efficiency", "vin": 3.3, "i_ch1": 0.1, "i23": 0.05, "value": 17184998468.81862}
+{"type": "kpi", "name": "efficiency", "vin": 5.0, "i_ch1": 0.1, "i23": 0.0, "value": 1430956162.8702345}
+{"type": "kpi", "name": "efficiency", "vin": 5.0, "i_ch1": 0.1, "i23": 0.05, "value": 709306787.1061543}
+{"type": "kpi", "name": "efficiency", "vin": 12.0, "i_ch1": 0.1, "i23": 0.0, "value": 179801233.95736042}
+{"type": "kpi", "name": "efficiency", "vin": 12.0, "i_ch1": 0.1, "i23": 0.05, "value": 84796469.02863233}
+{"type": "artifact", "path": "runs\\20250821_234014\\efficiency.csv"}
+{"type": "artifact", "path": "runs\\20250821_234014\\efficiency.xlsx"}
+{"type": "done", "state": "passed"}

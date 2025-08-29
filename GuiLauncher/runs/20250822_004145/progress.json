@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "updated_at": "2025-08-21T16:41:48Z",
+  "state": "failed",
+  "message": "[Errno 13] Permission denied: 'runs\\\\20250822_004145\\\\progress.json'"
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "updated_at": "2025-08-21T16:36:42Z",
+  "state": "passed",
+  "percent": 100,
+  "message": "Done",
+  "artifacts": [
+    {
+      "type": "csv",
+      "path": "efficiency.csv"
+    },
+    {
+      "type": "xlsx",
+      "path": "efficiency.xlsx"
+    }
+  ]
+}

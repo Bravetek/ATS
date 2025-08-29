@@ -1,0 +1,11 @@
+schema_version: 1
+run_info: { project: PMIC-XYZ, lot: L01, dut_sn: SN000123 }
+instruments:
+  keithley2450_1: "TCPIP0::169.254.250.237::INSTR"
+  keithley2450_2: "TCPIP0::169.254.106.133::INSTR"
+  keithley2450_3: "TCPIP0::169.254.251.196::INSTR"
+  dmm6500_1:      "TCPIP0::169.254.210.138::INSTR"
+  dmm6500_2:      "TCPIP0::169.254.210.136::INSTR"
+limits: { voltage_limit: 5.0, current_limit: 0.5 }
+sweep:  { vin: [3.3, 4.0, 5.0], i_ch1: [0.10], i23: [0.00, 0.05] }
+outputs: { excel: "efficiency.xlsx", csv: "efficiency.csv" }

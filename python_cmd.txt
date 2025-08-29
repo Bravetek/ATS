@@ -1,0 +1,2 @@
+
+"python.exe" -u "..\backend\main.py" --plan "runs\Test\plan.yaml" --out "runs\Test"

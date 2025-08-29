@@ -1,0 +1,16 @@
+schema_version: 1
+run_info: { project: PMIC-XYZ, lot: L01, dut_sn: SN000123 }
+instruments:
+  keithley2450_1: "TCPIP0::169.254.250.237::INSTR"
+  keithley2450_2: "TCPIP0::169.254.106.133::INSTR"
+  keithley2450_3: "TCPIP0::169.254.251.196::INSTR"
+  dmm6500_1:      "TCPIP0::169.254.210.138::INSTR"
+  dmm6500_2:      "TCPIP0::169.254.210.136::INSTR"
+limits: { voltage_limit: 5.0, current_limit: 0.3 , voltage_limit_ch1: 4.0, voltage_limit_x23: 7.0 }
+sweep:  { 
+vin: {start: 3.5, stop: 4.5, step: 0.1}, 
+i_ch1: {start: 0.01, stop: 0.01, step: 0.01}, 
+i23:  {start: 0, stop: 0.035, step: 0.005}, 
+}
+outputs: { excel: "efficiency.xlsx", csv: "efficiency.csv" }
+modes: run
